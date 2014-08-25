@@ -1,0 +1,123 @@
+html{
+    /*background-image:url('http://upload.wikimedia.org/wikipedia/commons/2/20/CheviotRailwayTunnelInterior.JPG');*/
+    background-repeat:no-repeat;
+}
+
+h1{
+    font-family: 'Helvetica','Josefin Sans', sans-serif;
+    font-weight:100;
+    font-size:45px;
+    position:relative;
+    /*left:45px;*/
+    /*text-transform:uppercase;*/
+    color:#000000;
+    letter-spacing:-3px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3{
+    font-family: 'Helvetica','Josefin Sans', sans-serif;
+    font-weight:100;
+    font-size:25px;
+    position:relative;
+    /*left:45px;*/
+    /*text-transform:uppercase;*/
+    color:#000000;
+    letter-spacing:-2px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a{
+    text-decoration:none;
+    border-bottom: 1px dotted;
+    color:inherit;
+}
+
+#header{
+    position:relative;
+    left:10px;
+}
+
+#header:hover {
+}
+
+#menu {
+    font-family: 'Helvetica', sans-serif;
+    font-size:25px;
+    font-weight:100;
+    /*color:#303030;*/
+    color:#000000;
+    text-align:left;
+    position:relative;
+    left:-39px;
+    top:-10px;
+    width:40px;
+}
+
+#menu ul{
+    list-style-type:none;
+    line-height:40px;
+}
+
+#menu li{
+    padding-left:20px;
+    width:50px;
+}
+
+.item:hover{
+    font-size:45px;
+    /*color:#B8B8B8;*/
+    color:#000000;
+    position:relative;
+    left:15px;
+    text-transform:uppercase;
+    /*letter-spacing:25px;*/
+    letter-spacing:20px
+}
+
+#menu li:active{
+    letter-spacing:30px;
+}
+
+#box{
+    border:solid;
+    height:90%;
+    padding: 15px;
+    width:55%;
+    position:absolute;
+    top:20px;
+    left:300px;
+    
+}
+
+#box p{
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+
+#info{
+    display:block;
+}
+
+#links{
+    display:none;
+}
+#blog{
+    display:none;
+}
+
+.center {
+    left: 0;
+    /*line-height: 200px;*/
+    margin: auto;
+    margin-top: -200px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+
+
