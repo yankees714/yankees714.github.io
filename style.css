@@ -1,37 +1,31 @@
 html{
+    font-family: 'Helvetica','Arial','sans-serif';
     color: black;
 }
 
 h1{
-    font-family: 'Helvetica','Josefin Sans', sans-serif;
-    font-weight:100;
     font-size:45px;
-    position:relative;
-    /*left:45px;*/
-    /*text-transform:uppercase;*/
+    font-weight:100;
     letter-spacing:-4px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 h3{
-    font-family: 'Helvetica','Josefin Sans', sans-serif;
-    font-weight:100;
     font-size:25px;
-    position:relative;
-    /*left:45px;*/
-    /*text-transform:uppercase;*/
+    font-weight:100;
     letter-spacing:-2px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
-a{
+a {
     text-decoration:none;
-    /*border-bottom: 1px dotted;*/
     color:inherit;
 }
 
+a:hover{
+    color:gray;
+}
+
+
+/* Center vertically and horizontally */
 .center {
     left: 0;
     /*line-height: 200px;*/
@@ -43,6 +37,8 @@ a{
     text-align: center;
 }
 
+
+/* Mono Social Font */
 @font-face {
     font-family: 'Mono Social Icons Font';
     src: url('MonoSocialIconsFont-1.10/MonoSocialIconsFont-1.10.eot');
@@ -76,5 +72,3 @@ a.symbol:before {
     margin-right: 0.3em;
     font-size: 130%;
 }
-
-
