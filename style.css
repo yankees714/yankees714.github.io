@@ -65,6 +65,7 @@ a:hover{
     font-smoothing: antialiased;
     font-size: 60px;
     padding: 20px;
+    letter-spacing: 0;
 }
 
 a.symbol:before {
