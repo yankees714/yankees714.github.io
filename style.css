@@ -38,7 +38,7 @@ a:hover{
 }
 
 
-/* Mono Social Font */
+/* Mono Social Font (http://drinchev.github.io/monosocialiconsfont/)*/
 @font-face {
     font-family: 'Mono Social Icons Font';
     src: url('MonoSocialIconsFont-1.10/MonoSocialIconsFont-1.10.eot');
@@ -53,6 +53,11 @@ a:hover{
 
 .symbol, a.symbol:before {
     font-family: 'Mono Social Icons Font';
+    font-size: 60px;
+    padding: 20px;
+
+    letter-spacing: 0;  /*Necessary to render icons in Firefox.*/
+
     -webkit-text-rendering: optimizeLegibility;
     -moz-text-rendering: optimizeLegibility;
     -ms-text-rendering: optimizeLegibility;
@@ -63,9 +68,6 @@ a:hover{
     -ms-font-smoothing: antialiased;
     -o-font-smoothing: antialiased;
     font-smoothing: antialiased;
-    font-size: 60px;
-    padding: 20px;
-    letter-spacing: 0;
 }
 
 a.symbol:before {
