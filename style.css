@@ -1,18 +1,12 @@
 html{
-    font-family: 'Helvetica','Arial','sans-serif';
+    font-family: 'Futura','Arial','sans-serif';
     color: black;
 }
 
 h1{
     font-size:45px;
-    font-weight:100;
-    letter-spacing:-4px;
-}
-
-h3{
-    font-size:25px;
-    font-weight:100;
-    letter-spacing:-2px;
+    font-weight:bold;
+    letter-spacing:-1px;
 }
 
 a {
